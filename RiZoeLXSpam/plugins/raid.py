@@ -35,8 +35,8 @@ async def spam(e):
             user = str(RiZoeL[1])
             a = await e.client.get_entity(user)
             g = a.id
-            if int(g) in iamhackerworld:
-                text = f"I can't raid on @iamhackerworld's Owner"
+            if int(g) in Moh:
+                text = f"I can't raid on bot Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) == OWNER_ID:
                 text = f"This guy is a owner Of this Bots."
@@ -58,8 +58,8 @@ async def spam(e):
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             g = b.id
-            if int(g) in iamhackerworld:
-                text = f"I can't raid on @iamhackerworld's Owner"
+            if int(g) in Moh:
+                text = f"I can't raid on @nobady_kares Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) == OWNER_ID:
                 text = f"This guy is a owner Of this Bots."
