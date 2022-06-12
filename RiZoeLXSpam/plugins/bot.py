@@ -12,14 +12,14 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/7ab121fb94ac69bbc898c.jpg"
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/11595f8155c4e570060c8.jpg"
   
 
-rizoel = "✯ **HACKER WORLD SPAMMER** ✯\n\n"
+rizoel = "✯ **MOH SPAMMER** ✯\n\n"
 rizoel += f"═══════════════════\n"
 rizoel += f"• **PYTHON VERSION** : `3.9.6`\n"
 rizoel += f"• **TELETHON VERSION** : `{version.__version__}`\n"
-rizoel += f"• **HW SPAM VERSION**  : `{rizoelversion}`\n"
+rizoel += f"• **MOH SPAM VERSION**  : `{rizoelversion}`\n"
 rizoel += f"═══════════════════\n\n"   
 
                                   
@@ -40,11 +40,11 @@ async def alive(event):
                                   caption=rizoel,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/HwMusicUpdates"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/HwBotSupport")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Mohthemusician"),
+        Button.url("CHATTING GROUP", "https://t.me/musicsoulfood")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://t.me/GoToHell_xD")
+        Button.url("• ʀᴇᴘᴏ •", "https://t.me/Nobady_kares")
         ]
         ]
         )
@@ -93,7 +93,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\nϟ Hw BOT SPAM ϟ︎ `{ms}` ᴍs")
+        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\nϟ MOH BOT SPAM ϟ︎ `{ms}` ᴍs")
         
         
 
@@ -109,7 +109,7 @@ async def ping(e):
 @Riz10.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "**Restarting Your Hw Bot Spam**.. Please Wait Until It Starts Again"
+        text = "**Restarting Your Moh Bot Spam**.. Please Wait Until It Starts Again"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Riz.disconnect()
