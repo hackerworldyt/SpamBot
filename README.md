@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./resources/Screenshot (19).png" alt="BOT-SPAM Logo">
+</p>
+<h1 align="center">
 <h1 align="center">
   <b>MOH X sᴘᴀᴍ</b>
 </h1>
