@@ -7,11 +7,11 @@ from .. import Riz, Riz2, Riz3, Riz4, Riz5, Riz6, Riz7, Riz8, Riz9, Riz10, ALIVE
 from RiZoeLXSpam.plugins.help import *
 
 
-RIZ_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/7ab121fb94ac69bbc898c.jpg"
+RIZ_IMG = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/11595f8155c4e570060c8.jpg""
 
 Riz_Button = [
         [
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/HwBotSupport")
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/mohthemusician")
         ],
         [
         Button.inline("• ᴄᴍᴅs •", data="help_back")
@@ -20,11 +20,11 @@ Riz_Button = [
                
 RizX_Button = [
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/HackerWorldMods"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/HwBotSupport")
+        Button.url("CHATTING GRP", "https://t.me/Musicsoulfood"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/mohthemusician")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://t.me/iamhackerworld")
+        Button.url("• ʀᴇᴘᴏ •", "https://t.me/nobady_kares")
         ]
         ]
         
