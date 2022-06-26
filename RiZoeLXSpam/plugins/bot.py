@@ -39,16 +39,6 @@ async def alive(event):
                                   RIZ_PIC,
                                   caption=rizoel,
                                   buttons=[
-        [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Mohthemusician"),
-        Button.url("CHATTING GROUP", "https://t.me/musicsoulfood")
-        ],
-        [
-        Button.url("• ʀᴇᴘᴏ •", "https://t.me/Nobady_kares")
-        ]
-        ]
-        )
-    
 def get_readable_time(seconds: int) -> str:
     count = 0
     ping_time = ""
